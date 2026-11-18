@@ -1,4 +1,4 @@
-import type { PracticeLinkConfig } from "../../../domain/models";
+import type { PracticeLinkConfig } from "../domain/models";
 
 /**
  * External practice navigation remains deliberately unconfigured until an

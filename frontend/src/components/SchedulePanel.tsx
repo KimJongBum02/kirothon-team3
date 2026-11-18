@@ -3,9 +3,9 @@ import type {
   CertificateId,
   PracticeLinkConfig,
   Schedule,
-} from "../../../domain/models";
-import { selectSchedulesForCertificate } from "../../../domain/dashboardSelectors";
-import { sourceLabel } from "../../../domain/provenance";
+} from "../domain/models";
+import { selectSchedulesForCertificate } from "../domain/dashboardSelectors";
+import { sourceLabel } from "../domain/provenance";
 import { ExternalPracticeAction } from "./ExternalPracticeAction";
 
 const OFFICIAL_CONFIRMATION_NOTICE_ID = "official-confirmation-notice";

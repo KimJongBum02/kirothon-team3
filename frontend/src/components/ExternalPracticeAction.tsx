@@ -1,4 +1,4 @@
-import type { PracticeLinkConfig } from "../../../domain/models";
+import type { PracticeLinkConfig } from "../domain/models";
 
 export interface ExternalPracticeActionProps {
   readonly config: PracticeLinkConfig;

@@ -1,5 +1,5 @@
-import type { DataSource } from "../../../domain/models";
-import { sourceLabel } from "../../../domain/provenance";
+import type { DataSource } from "../domain/models";
+import { sourceLabel } from "../domain/provenance";
 
 export interface AttributionFooterProps {
   readonly attribution: readonly DataSource[];

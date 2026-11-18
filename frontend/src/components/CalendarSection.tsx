@@ -1,4 +1,4 @@
-import { createCalendarEntries, parseIsoDateUtc } from "../../../domain/dashboardSelectors";
+import { createCalendarEntries, parseIsoDateUtc } from "../domain/dashboardSelectors";
 import type {
   CalendarEntry,
   Certificate,
@@ -6,9 +6,9 @@ import type {
   IsoDate,
   IsoMonth,
   Schedule,
-} from "../../../domain/models";
-import { sourceLabel } from "../../../domain/provenance";
-import { ScheduleFilter } from "../../../components/ScheduleFilter";
+} from "../domain/models";
+import { sourceLabel } from "../domain/provenance";
+import { ScheduleFilter } from "./ScheduleFilter";
 
 const OFFICIAL_CONFIRMATION_NOTICE_ID = "official-confirmation-notice";
 const WEEKDAY_LABELS = ["일", "월", "화", "수", "목", "금", "토"] as const;

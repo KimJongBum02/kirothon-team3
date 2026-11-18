@@ -3,7 +3,7 @@ import type {
   CertificateId,
   IsoDate,
   Schedule,
-} from "../../../domain/models";
+} from "./models";
 
 const MILLISECONDS_PER_DAY = 86_400_000;
 const ISO_DATE_PATTERN = /^(\d{4})-(\d{2})-(\d{2})$/;
