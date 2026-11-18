@@ -1,0 +1,12 @@
+[
+  {
+    "id": "ip-industrial-001",
+    "certificateId": "industrial-engineer-information-processing",
+    "subject": null,
+    "difficulty": "easy",
+    "question": "공개 출제 범위를 바탕으로 새로 작성한 문제",
+    "choices": ["선택지 1", "선택지 2", "선택지 3", "선택지 4"],
+    "answerIndex": 0,
+    "explanation": "새로 작성한 해설"
+  }
+]

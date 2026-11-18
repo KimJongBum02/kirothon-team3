@@ -1,0 +1,12 @@
+{
+  "schedules": [
+    {
+      "certificateId": "engineer-information-processing",
+      "sessions": []
+    },
+    {
+      "certificateId": "industrial-engineer-information-processing",
+      "sessions": []
+    }
+  ]
+}
