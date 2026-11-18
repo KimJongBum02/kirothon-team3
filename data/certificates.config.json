@@ -1,0 +1,28 @@
+{
+  "certificates": [
+    {
+      "id": "engineer-information-processing",
+      "displayName": "정보처리기사",
+      "qualificationSource": "manual-json",
+      "scheduleSource": "qnet-api",
+      "qualificationDataPath": "data/qualifications.json",
+      "scheduleFallbackPath": "data/fallback/schedules.json",
+      "qnet": {
+        "itemCode": "<사용자 확인 후 입력>",
+        "qualificationTypeCode": "<사용자 확인 후 입력>"
+      }
+    },
+    {
+      "id": "industrial-engineer-information-processing",
+      "displayName": "정보처리산업기사",
+      "qualificationSource": "manual-json",
+      "scheduleSource": "qnet-api",
+      "qualificationDataPath": "data/qualifications.json",
+      "scheduleFallbackPath": "data/fallback/schedules.json",
+      "qnet": {
+        "itemCode": "<사용자 확인 후 입력>",
+        "qualificationTypeCode": "<사용자 확인 후 입력>"
+      }
+    }
+  ]
+}
