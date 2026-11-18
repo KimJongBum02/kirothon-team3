@@ -1,5 +1,5 @@
-import type { MockProfile } from "../../../domain/models";
-import { ProfileBoundary } from "../../../components/ProfileBoundary";
+import type { MockProfile } from "../domain/models";
+import { ProfileBoundary } from "./ProfileBoundary";
 
 export interface DashboardHeaderProps {
   readonly profile: MockProfile | null;

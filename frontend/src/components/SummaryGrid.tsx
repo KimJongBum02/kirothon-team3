@@ -3,8 +3,8 @@ import type {
   DataSource,
   DayAndGoalSummary,
   StudyGoal,
-} from "../../../domain/models";
-import { MOCK_DATA_LABEL, sourceLabel } from "../../../domain/provenance";
+} from "../domain/models";
+import { MOCK_DATA_LABEL, sourceLabel } from "../domain/provenance";
 
 export interface SummaryGridProps {
   /** Already-normalized selector result for the selected certificate. */

@@ -1,4 +1,4 @@
-import type { Certificate } from "../../../domain/models";
+import type { Certificate } from "../domain/models";
 
 /**
  * Supported certificates use stable IDs for state and associations, while the

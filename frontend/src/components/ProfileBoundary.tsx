@@ -1,4 +1,4 @@
-import type { MockProfile } from "../../../domain/models";
+import type { MockProfile } from "../domain/models";
 
 export interface ProfileBoundaryProps {
   readonly profile: MockProfile | null;

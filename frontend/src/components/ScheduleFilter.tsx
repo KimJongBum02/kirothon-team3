@@ -1,4 +1,4 @@
-import type { Certificate, CertificateId } from "../../../domain/models";
+import type { Certificate, CertificateId } from "../domain/models";
 
 export interface ScheduleFilterProps {
   readonly certificates: readonly Certificate[];
